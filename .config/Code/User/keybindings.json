@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+alt+p",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
+    }
+]
